@@ -1,0 +1,13 @@
+# Inferred dependencies for the project based on imports in main.py
+opencv-python
+numpy
+Pillow
+open_image_models
+groq
+paddleocr
+python-dotenv
+
+# Note: PaddleOCR typically requires a PaddlePaddle backend. Install one of the
+# appropriate PaddlePaddle wheels for your platform, for example:
+# pip install paddlepaddle       # CPU-only (check latest compatible version)
+# pip install paddlepaddle-gpu   # GPU-enabled (pick correct CUDA build)
